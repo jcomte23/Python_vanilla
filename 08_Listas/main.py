@@ -41,3 +41,44 @@ lista.insert(2, 10)  # Inserta el valor 10 en el índice 2
 lista.remove(3)     # Elimina la primera ocurrencia del valor 3
 elemento_eliminado = lista.pop()  # Elimina y devuelve el último elemento
 
+
+# Ejemplo manejo de listas
+print("")
+miembrosDeLaFamilia=[
+    "tatarabuelo"
+]
+miembrosDeLaFamiliaExpulsado=[]
+
+
+
+
+miembrosDeLaFamilia.append("abuelo")
+miembrosDeLaFamilia.insert(1,"abuela")
+miembrosDeLaFamilia.append("papa")
+miembrosDeLaFamilia.append("mama")
+miembrosDeLaFamilia.append("yo")
+print("ANTES:",miembrosDeLaFamilia)
+del miembrosDeLaFamilia[2]
+miembrosDeLaFamilia.remove("abuelo")
+miembrosDeLaFamiliaExpulsado.append(miembrosDeLaFamilia.pop(2))
+print("DESPUES:",miembrosDeLaFamilia)
+miembrosDeLaFamilia.sort()
+print("familia ordenada alfabeticamente:",miembrosDeLaFamilia)
+print("cantidad de miembros: ",len(miembrosDeLaFamilia))
+print("miembros expulsado: ",miembrosDeLaFamiliaExpulsado)
+
+
+for miembro in miembrosDeLaFamilia:
+    print("#->", miembro.upper())
+
+print("")
+
+tuplaMesclada=("javier",234,"javier","hola mundo")
+print(type(tuplaMesclada))
+print(tuplaMesclada.count("Javier"))
+
+tuplaMesclada=list(tuplaMesclada)
+print(tuplaMesclada)
+
+
+
