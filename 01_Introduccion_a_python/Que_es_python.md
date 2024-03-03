@@ -1,3 +1,9 @@
 <h1 align="center">Python</h1>
 
 <p>Python es uno de los lenguajes de programación más populares y con un crecimiento más rápido del mundo. Se usa para todo tipo de tareas, como las de programación web y análisis de datos, y se ha convertido en el lenguaje que hay que conocer para el aprendizaje automático. Esa popularidad significa que los desarrolladores de Python están muy solicitados y los trabajos de programación de Python pueden ser rentables.</p>
+
+<p>Creado a principios de la década de los 90, Python posee una amplia gama de usos, desde automatizar tareas repetitivas y escribir aplicaciones web hasta compilar modelos de Machine Learning e implementar redes neuronales. A los investigadores, matemáticos y, en particular, a los científicos de datos les gusta Python gracias a su sintaxis completa y fácil de entender y a la amplia gama de paquetes de código abierto disponibles. Los paquetes son bibliotecas de código compartido que están disponibles de forma gratuita para todos los usuarios.</p>
+
+<p>Python cuenta con una sintaxis sencilla y fácil de aprender que enfatiza la legibilidad. Las aplicaciones escritas en Python se pueden ejecutar en casi cualquier equipo, como los que ejecutan Windows, macOS y las distribuciones populares de Linux. Asimismo, el ecosistema contiene un amplio conjunto de herramientas de desarrollo para escribir, depurar y publicar aplicaciones de Python.</p>
+
+<p>Por último, Python se halla respaldada por una comunidad de usuarios activos dispuesta a ayudar a que los programadores nuevos aprendan el estilo de Python, por el cual no solo se obtiene la sintaxis correcta, sino que el lenguaje se usa para el fin para el que estaba previsto.</p>
