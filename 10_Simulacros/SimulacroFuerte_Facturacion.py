@@ -19,7 +19,10 @@ apellidoCliente=""
 factura=[]
 
 while True:
-    print("#MENU#")
+    print()
+    print("########")
+    print("--MENU--")
+    print("########")
     menu="""
     (1) Registar cliente  
     (2) Registrar un nuevo producto a la factura  
@@ -33,15 +36,18 @@ while True:
 
     if opcionMenu=="1":
         if(documentoCliente=="" or nombreCliente=="" or apellidoCliente==""):
-            print("Vamos a registarte")
+            print("-------------------")
+            print("Vamos a registrarte")
             documentoCliente=input("ingrese el # documento=>")
             nombreCliente=input("ingrese los nombres=>")
             apellidoCliente=input("ingrese los apellidos=>")
+            print("-------------------")
             print("Datos registrados")
             print("DOC:",documentoCliente)
             print("NOMBRES:",nombreCliente)
             print("APELLIDOS:",apellidoCliente)
         else:
+            print("-------------------")
             print("Ya hay un usuario registrado")
             print("DOC:",documentoCliente)
             print("NOMBRES:",nombreCliente)
@@ -73,9 +79,12 @@ while True:
         }
         factura.append(nuevoProductoEnFactura)
     elif opcionMenu=="3":
+        print("--------------------")
         print("productos en factura")
+        print("--------------------")
         for producto in factura:
-            print(producto)
+            print(f"{producto["nombre"]} {producto["valor"]} * {producto["unidades"]} = {producto["totalProducto"]}")
+        print("--------------------")
     elif opcionMenu=="4":
         print("FACTURA")
         print("Datos registrados")
