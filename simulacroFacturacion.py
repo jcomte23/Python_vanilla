@@ -31,5 +31,17 @@ print(menu)
 
 opcionMenu=input("INGRESE LA OPCION=>")
 
+if opcionMenu=="1":
+    print("aca vamos a registrar un cliente")
+elif opcionMenu=="2":
+    print("aca vamos a registrar un nuevo producto")
+elif opcionMenu=="3":
+    print("aca vamos a listar los productos de la factura")
+elif opcionMenu=="4":
+    print("aca vamos a mostrar la factura")
+elif opcionMenu=="5":
+    print("aca vamos terminar el programa")
+else:
+    print("ingreste una opcion invalidad")
 
 
