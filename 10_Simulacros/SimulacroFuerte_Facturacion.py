@@ -62,12 +62,20 @@ while True:
         for producto in productos:
             print(f"[{indice}] {producto["nombre"]} {producto["valor"]}")
             indice+=1
-        productoSeleccionado=int(input("ingrese el indice del producto que quieres agregar"))
-        factura.append(productos[productoSeleccionado])
+        productoSeleccionado=int(input("ingrese el indice del producto que quieres agregar?=>"))
+        cantidad=int(input("cuantas unidades vas a comprar?=>"))
+        totalProducto=cantidad*productos[productoSeleccionado]["valor"]
+        nuevoProductoEnFactura={
+            "nombre":productos[productoSeleccionado]["nombre"],
+            "valor":productos[productoSeleccionado]["valor"],
+            "unidades":cantidad,
+            "totalProducto":totalProducto
+        }
+        factura.append(nuevoProductoEnFactura)
     elif opcionMenu=="3":
         print("productos en factura")
         for producto in factura:
-            print(f"{producto["nombre"]} {producto["valor"]}")
+            print(producto)
     elif opcionMenu=="4":
         print("FACTURA")
         print("Datos registrados")
