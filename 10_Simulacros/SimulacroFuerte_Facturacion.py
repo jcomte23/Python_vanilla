@@ -87,7 +87,12 @@ while True:
         print("--------------------")
     elif opcionMenu=="4":
         
+        valorTotalFactura=0
         
+        for producto in factura:
+            valorTotalFactura+=producto["totalProducto"]
+        print("--------------------")
+        print(valorTotalFactura)
         
         
         print("FACTURA")
