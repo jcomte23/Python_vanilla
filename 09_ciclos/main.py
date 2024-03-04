@@ -1,7 +1,5 @@
-# listaNumeros=[]
+listaNumeros=[]
 
-
-    
     
 
 # #VERSION CLASICA
@@ -17,17 +15,26 @@
 # listaNumeros.append(numero4)
 # listaNumeros.append(numero5)
 
+# for contador in range(5):
+#     numero=int(input("ingrese un numero"))
+#     listaNumeros.append(numero)
+    
+
+
 # #VERSION CON EL CICLO FOR
-# for numeroVuelta in range(1,6):
+# for numeroVuelta in range(5):
 #     numero=int(input(f"ingrese un numero # {numeroVuelta}=>"))
 #     listaNumeros.append(numero)
+    
+# print(listaNumeros)
 
 # #VERSION CON EL CICLO WHILE
-# numeroVuelta=1
-# while numeroVuelta!=6: 
-#     numero=int(input(f"ingrese un numero # {numeroVuelta}=>"))
-#     listaNumeros.append(numero)
-#     numeroVuelta+=1
+numeroVuelta=6
+while numeroVuelta!=6:
+    numero=int(input(f"ingrese un numero # {numeroVuelta}=>"))
+    listaNumeros.append(numero)
+    
+    numeroVuelta+=1
 
 
 # Ejercicios de estudiantes

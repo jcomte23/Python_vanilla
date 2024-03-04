@@ -87,12 +87,12 @@ print(f"¿{NUMERO1} es menor o igual que {NUMERO3}? => {NUMERO1 <= NUMERO3}")  #
 # #####################
 
 # Operador AND (and)
-estatura = 1.96
-print(estatura >= 1.71 and isinstance(estatura, float))  # True
+estatura = 4.0
+print(estatura >= 1.71 and type(estatura)==float)  # True
 print(estatura >= 1.71 and isinstance(estatura, int))  # False
 
 # Operador OR (or)
-print(estatura >= 1.71 or isinstance(estatura, int))  # True
+print(estatura >= 1.71 or isinstance(estatura, float))  # True
 
 # Operador NOT (not)
 variable = True

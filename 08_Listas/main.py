@@ -62,7 +62,7 @@ del miembrosDeLaFamilia[2]
 miembrosDeLaFamilia.remove("abuelo")
 miembrosDeLaFamiliaExpulsado.append(miembrosDeLaFamilia.pop(2))
 print("DESPUES:",miembrosDeLaFamilia)
-miembrosDeLaFamilia.sort()
+miembrosDeLaFamilia.rev()
 print("familia ordenada alfabeticamente:",miembrosDeLaFamilia)
 print("cantidad de miembros: ",len(miembrosDeLaFamilia))
 print("miembros expulsado: ",miembrosDeLaFamiliaExpulsado)
