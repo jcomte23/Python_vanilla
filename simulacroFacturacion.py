@@ -13,4 +13,10 @@ productos=(
     }
 )
 
+cliente={
+    "documento":"27984521",
+    "nombres":"Javier",
+    "apellidos":"Cómbita Téllez",
+}
+
 
