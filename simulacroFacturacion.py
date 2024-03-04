@@ -16,6 +16,7 @@ productos=(
 documentoCliente=""
 nombreCliente=""
 apellidoCliente=""
+factura=[]
 
 while True:
     print("#MENU#")
@@ -55,16 +56,26 @@ while True:
                 print("DOC:",documentoCliente)
                 print("NOMBRES:",nombreCliente)
                 print("APELLIDOS:",apellidoCliente)
-            else:
-                print("#############################")
-                print("ingreste una opcion invalida")
-                print("#############################")
+                print("Usuario actualizado")
     elif opcionMenu=="2":
-        print("aca vamos a registrar un nuevo producto")
+        indice=0
+        for producto in productos:
+            print(f"[{indice}] {producto["nombre"]} {producto["valor"]}")
+            indice+=1
+        productoSeleccionado=int(input("ingrese el indice del producto que quieres agregar"))
+        factura.append(productos[productoSeleccionado])
     elif opcionMenu=="3":
-        print("aca vamos a listar los productos de la factura")
+        print("productos en factura")
+        for producto in factura:
+            print(f"{producto["nombre"]} {producto["valor"]}")
     elif opcionMenu=="4":
-        print("aca vamos a mostrar la factura")
+        print("FACTURA")
+        print("Datos registrados")
+        print("DOC:",documentoCliente)
+        print("NOMBRES:",nombreCliente)
+        print("APELLIDOS:",apellidoCliente)
+        for producto in factura:
+            print(f"{producto["nombre"]} {producto["valor"]}")
     elif opcionMenu=="5":
         print("Feliz dia")
         break
