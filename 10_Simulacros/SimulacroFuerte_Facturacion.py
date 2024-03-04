@@ -86,6 +86,10 @@ while True:
             print(f"{producto["nombre"]} {producto["valor"]} * {producto["unidades"]} = {producto["totalProducto"]}")
         print("--------------------")
     elif opcionMenu=="4":
+        
+        
+        
+        
         print("FACTURA")
         print("Datos registrados")
         print("DOC:",documentoCliente)
