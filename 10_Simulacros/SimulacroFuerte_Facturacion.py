@@ -79,6 +79,12 @@ while True:
         }
         factura.append(nuevoProductoEnFactura)
     elif opcionMenu=="3":
+        cantidadProductos=len(factura)
+        valorNeto=0
+        for producto in factura:
+            valorNeto+=producto["totalProducto"]
+        impuestoIva=valorNeto*0.19
+        totalFactura=valorNeto+impuestoIva
         print("--------------------")
         print("productos en factura")
         print("--------------------")
