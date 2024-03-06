@@ -95,4 +95,4 @@ while True:
         print("aca vamos a cerrar")
         break
     else:
-       print("ingresastes una opcion invalidad")
+       print("ingresastes una opcion invalida")
