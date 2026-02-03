@@ -33,3 +33,32 @@ print(f"Usando operador '+': {variable1 + variable2}")
 print("Usando 'format()': variable1: {} variable2: {}".format(variable1, variable2))
 print(f"Usando f-strings: {variable1} {variable2}")
 
+# Sacar los fragmentos de texto de un string (slicing)
+print()
+# noinspection SpellCheckingInspection
+texto = "ABCDEFGHIJKLMNOP"
+print(texto)
+
+# Un solo índice: obtiene un carácter
+fragmento = texto[2]
+print(fragmento)  # C
+
+# Desde el inicio hasta el índice 5 (sin incluir)
+fragmento = texto[:5]
+print(fragmento)  # ABCDE
+
+# Desde el índice 2 hasta el 5 (sin incluir)
+fragmento = texto[2:5]
+print(fragmento)  # CDE
+
+# Desde el inicio hasta el final, saltando de 2 en 2
+fragmento = texto[::2]
+print(fragmento)  # ACEGIKMO
+
+# Invertir el texto (de atrás hacia adelante)
+fragmento = texto[::-1]
+print(fragmento)  # PONMLKJIHGFEDCBA
+
+# Desde el índice 2 hasta el 10, saltando de 2 en 2
+fragmento = texto[2:10:2]
+print(fragmento)  # CEGI
