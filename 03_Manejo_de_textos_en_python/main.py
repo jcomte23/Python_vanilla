@@ -2,9 +2,9 @@
 # print("|       Manejo de textos     |")
 # print("*"*30)
 # print()
-# # El input por defecto trae todo en strings por lo tanto es incesetario enmascararlo en str()
-# variable1=input("varible 1: ")
-# variable2=str(input("variable 2: ")) 
+# # El input por defecto trae todo en strings por lo tanto es innecesario enmascararlo en str()
+# variable1=input("variable 1: ")
+# variable2=str(input("variable 2: "))
 # print(variable1,type(variable1))
 # print(variable2,type(variable2))
 

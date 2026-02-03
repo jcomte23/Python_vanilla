@@ -11,6 +11,25 @@ texto="hola mundo como estas"
 if("mundo" in texto):
     print("la palabra clave esta dentro del texto")
 
+
+print()
+print("index: retornar el carácter que habita en un indice")
+texto="hola mundo como estas"
+print(texto.index("mundo"))
+print("también le podemos decir desde donde empezar")
+print(texto.index("a",5))
+print("incluso le podemos decir desde donde empezar y asta donde terminar")
+print(texto.index("a",5,8))
+
+print()
+print("rindex: retornar el índice de un carácter buscando de derecha a izquierda")
+texto = "hola mundo como estas"
+print(texto.rindex("o"))  # Busca la última aparición de "o"
+print("también le podemos decir desde donde empezar")
+print(texto.rindex("o", 0, 10))  # Busca "o" pero solo hasta el índice 10
+print("incluso le podemos decir desde donde empezar y hasta donde terminar")
+print(texto.rindex("o", 5, 15))  # Busca "o" entre los índices 5 y 15
+
 print()
 print("len: cuenta la cantidad de caracteres de un texto, tomando en cuenta los espacios")
 texto="hola mundo como estas"
