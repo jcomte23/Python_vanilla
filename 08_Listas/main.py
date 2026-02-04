@@ -72,9 +72,16 @@ numeros = [3, 1, 4, 1, 5, 9, 2]
 numeros.sort()
 print(numeros)  # [1, 1, 2, 3, 4, 5, 9]
 
+#reversar una vista
 palabras = ["zebra", "manzana", "banana"]
 palabras.sort()
 print(palabras)  # ['banana', 'manzana', 'zebra']
+
+#ordenar una lista si mover la original
+original = [3, 1, 4]
+ordenada = sorted(original)
+print(original)  # [3, 1, 4] - sin cambios
+print(ordenada)  # [1, 3, 4] - nueva lista
 
 
 for miembro in miembrosDeLaFamilia:
