@@ -1,5 +1,10 @@
 texto=input("ingresa un texto cualquiera=>").lower()
-letras=input("ingresa 3 letras a tu elección=>").lower()
+
+letras=list()
+print("ingresa 3 letras a tu elección:")
+letras.append(input("ingresa la primer letra a tu elección=>").lower())
+letras.append(input("ingresa la segunda letra a tu elección=>").lower())
+letras.append(input("ingresa la tercer letra a tu elección=>").lower())
 
 print(f"la letra {letras[0]} aparece {texto.count(letras[0])} veces")
 print(f"la letra {letras[1]} aparece {texto.count(letras[1])} veces")
