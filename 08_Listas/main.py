@@ -67,6 +67,15 @@ print("familia ordenada alfabeticamente:",miembrosDeLaFamilia)
 print("cantidad de miembros: ",len(miembrosDeLaFamilia))
 print("miembros expulsado: ",miembrosDeLaFamiliaExpulsado)
 
+#ordenar una lista
+numeros = [3, 1, 4, 1, 5, 9, 2]
+numeros.sort()
+print(numeros)  # [1, 1, 2, 3, 4, 5, 9]
+
+palabras = ["zebra", "manzana", "banana"]
+palabras.sort()
+print(palabras)  # ['banana', 'manzana', 'zebra']
+
 
 for miembro in miembrosDeLaFamilia:
     print("#->", miembro.upper())
@@ -79,6 +88,8 @@ print(tuplaMesclada.count("Javier"))
 
 tuplaMesclada=list(tuplaMesclada)
 print(tuplaMesclada)
+
+
 
 
 
